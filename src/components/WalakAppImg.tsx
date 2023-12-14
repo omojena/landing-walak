@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import WalakAppIMG from '../../public/walak-app.png';
 
 function WalakAppImg() {
   return (
@@ -6,7 +7,7 @@ function WalakAppImg() {
       component="img"
       sx={ { height: 500, width: 400 } }
       alt="The house from the offer."
-      src={ `../public/walak-app.png` }
+      src={WalakAppIMG}
     />
   );
 }

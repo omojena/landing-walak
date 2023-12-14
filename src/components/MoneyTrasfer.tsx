@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import MoneyTrasnferImg from '../../public/money-transfer.png';
 
 function MoneyTransfer() {
   return (
@@ -6,7 +7,7 @@ function MoneyTransfer() {
       component="img"
       className="money-transfer"
       alt="The house from the offer."
-      src={ `../public/money-transfer.png` }
+      src={MoneyTrasnferImg}
     />
   );
 }

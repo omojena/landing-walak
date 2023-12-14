@@ -23,11 +23,11 @@ const Banner = () => {
             <Typography className="text2">Envio de</Typography>
             <Typography className="text3">Remesas a Cuba</Typography>
           </Box>
-          <Box mt="24px">
+          <Box mt="24px" sx={{ display: { xs: 'table-caption', md: 'flex' } }}>
             <Stack direction="row" marginY="8px" spacing={1} sx={{ flexWrap: 'wrap' }}>
               <Chip className="chips" label="al 20%" sx={{ backgroundColor: '#0EA7DA', color: 'white', maxWidth: '100%' }} />
               <Chip className="chips" label="en -24 hrs" sx={{ backgroundColor: '#0EA7DA', color: 'white', maxWidth: '100%' }} />
-              <Chip className="chips" label="desde cualquier parte del mundo" sx={{ backgroundColor: '#0EA7DA', color: 'white', marginLeft: { xs: '0 !important' }, marginTop: { xs: '8px !important' } }} />
+              <Chip className="chips" label="desde cualquier parte del mundo" sx={{ backgroundColor: '#0EA7DA', color: 'white', marginLeft: { xs: '0 !important', md: '8px !important'  }, marginTop: { xs: '8px !important', md: '0 !important' } }} />
             </Stack>
           </Box>
           <Box mt="24px" sx={{textAlign: { xs: 'right', md: 'left', sm: 'left' }}}>
