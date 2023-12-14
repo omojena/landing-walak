@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardContent, Container, Grid, Typography } from "@mui/material";
+import { Box, Button, Card, CardContent, Container, Grid, Link, Typography } from "@mui/material";
 import WalakAppImg from "./WalakAppImg";
 import { useTheme } from "@mui/material/styles";
 import IconWorld from "./icons-svg/IconWorld";
@@ -67,7 +67,7 @@ function BodyContent() {
                     <Box display="flex">
                       <PaidIcon/>
                       <Typography ml="8px">
-                        Al 20%, por cada 120 USD reciben 100 MLC
+                        Al 1/1, por cada 100 USD reciben 100 MLC
                       </Typography>
                     </Box>
                     <Box display="flex">
@@ -106,9 +106,11 @@ function BodyContent() {
           </Grid>
         </Grid>
         <Box sx={{textAlign: { xs: 'center', md: 'left' }, marginTop: { xs: 8, md: '-8rem' }}}>
-          <Button variant="contained" className="btn btn2 btn-text">
-            Me Interesa
-          </Button>
+          <Link href="https://wa.me/+13057201782" target="_blank" rel="noopener noreferrer">
+            <Button variant="contained" className="btn btn2 btn-text">
+              Me Interesa
+            </Button>
+          </Link>
         </Box>
         </Container>
       </Box>

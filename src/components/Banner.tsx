@@ -1,4 +1,4 @@
-import { Box, Button, Chip, Container, Grid, Stack, Typography } from '@mui/material';
+import { Box, Button, Chip, Container, Grid, Link, Stack, Typography } from '@mui/material';
 import MoneyTransfer from "./MoneyTrasfer.tsx";
 import { useTheme } from '@mui/material/styles';
 
@@ -25,7 +25,7 @@ const Banner = () => {
           </Box>
           <Box mt="24px" sx={{ display: { xs: 'table-caption', md: 'flex' } }}>
             <Stack direction="row" marginY="8px" spacing={1} sx={{ flexWrap: 'wrap' }}>
-              <Chip className="chips" label="al 20%" sx={{ backgroundColor: '#0EA7DA', color: 'white', maxWidth: '100%' }} />
+              <Chip className="chips" label="al 1/1" sx={{ backgroundColor: '#0EA7DA', color: 'white', maxWidth: '100%' }} />
               <Chip className="chips" label="en -24 hrs" sx={{ backgroundColor: '#0EA7DA', color: 'white', maxWidth: '100%' }} />
               <Chip className="chips" label="desde cualquier parte del mundo" sx={{ backgroundColor: '#0EA7DA', color: 'white', marginLeft: { xs: '0 !important', md: '8px !important'  }, marginTop: { xs: '8px !important', md: '0 !important' } }} />
             </Stack>
@@ -44,9 +44,11 @@ const Banner = () => {
             <Typography className="text5">Contáctenos vía Whatsapp para habilitar su cuenta de cliente</Typography>
           </Box>
           <Box sx={{textAlign: { xs: 'center', md: 'left', sm: 'left' }}}>
+            <Link href="https://wa.me/+13057201782" target="_blank" rel="noopener noreferrer">
             <Button variant="contained" className="btn btn1 btn-text">
               Estoy Interesado
             </Button>
+            </Link>
           </Box>
         </Grid>
     </Grid>
