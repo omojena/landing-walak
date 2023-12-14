@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardContent, Container, Grid, SvgIcon, Typography } from "@mui/material";
+import { Box, Button, Card, CardContent, Container, Grid, Typography } from "@mui/material";
 import WalakAppImg from "./WalakAppImg";
 import { useTheme } from "@mui/material/styles";
 import IconWorld from "./icons-svg/IconWorld";
@@ -10,7 +10,7 @@ function BodyContent() {
   const theme = useTheme();
 
   return (
-      <Box container className="box-dark">
+      <Box className="box-dark">
         <Container>
         <Grid>
           <Box display="flex" justifyContent="center">

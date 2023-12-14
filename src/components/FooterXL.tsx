@@ -36,7 +36,6 @@ const FooterXL = () => {
 
       </Box>
       <Box
-        container
         sx={{
           background: { xs: `url(${FooterImg}), lightgray 50% / cover no-repeat` },
           backgroundSize: { xs: 'cover' },

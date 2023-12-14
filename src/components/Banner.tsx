@@ -15,7 +15,7 @@ const Banner = () => {
             padding: 1}} spacing={ 2 }>
         <Grid sx={{ display: { xs: 'none', sm: 'block', md: 'block' }, padding: { sx: "40px" } }} item xs={ 12 } sm={ 6 }>
           <Box>
-            <MoneyTransfer dispaly="flex" justifyContent="center"/>
+            <MoneyTransfer/>
           </Box>
         </Grid>
         <Grid sx={{ padding: { sx: "40px" }}} item xs={ 12 } md={ 6 }>
